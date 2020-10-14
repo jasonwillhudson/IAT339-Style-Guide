@@ -1,0 +1,149 @@
+/*==================Universal flex settings==========*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid black;
+    padding-bottom: 80px;
+
+}
+
+.type-title {
+    flex-basis: 100%;
+
+}
+
+.box {
+    padding: 0 2rem;
+}
+
+.box1,
+.box2,
+.box3 {
+    padding: 1.5rem;
+    padding-right: 0;
+}
+
+.code-box {
+    background-color: #ac6d57;
+    padding: 20px;
+    display: block;
+    color: white;
+    font-size: 15px;
+    width: 300px;
+}
+
+.element-box{
+    
+}
+
+/*========================interaction flex setting=============*/
+
+.interactive_elements .type-title {
+    flex: 2 1 15%;
+    margin: 0;
+    padding-left: 1.1rem;
+    padding-top: 1.2rem;
+    box-shadow: 0px 1px 1px;
+    margin-bottom: 20px;
+}
+
+.interactive_elements .box1 {
+    flex: 1 1 10%;
+    box-shadow: 0px 1px 1px;
+    margin-bottom: 20px;
+}
+
+.interactive_elements .box2 {
+    flex: 3 1 30%;
+    box-shadow: 0px 1px 1px;
+    margin-bottom: 20px;
+}
+
+.interactive_elements .box3 {
+    flex: 2 1 20%;
+    box-shadow: 0px 1px 1px;
+    margin-bottom: 20px;
+
+}
+
+.interactive_elements .container {
+    padding: 0 2rem;
+    border: none;
+
+}
+
+@media (max-width:810px){
+    .interactive_elements .box1,
+    .interactive_elements .box2,
+    .interactive_elements .box3{
+        width: 100%;
+    }
+    
+    .interactive_elements code{
+        width: 90%;
+    }
+    
+    .nav-guide a{
+        width: 100%;
+    }
+    
+    .sample .product-box{
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:810px){
+    .interactive_elements .box1,
+    .interactive_elements .box2,
+    .interactive_elements .box3{
+        width: 100%;
+    }
+    
+    .interactive_elements code{
+        width: 90%;
+    }
+    
+    .nav-guide a{
+        width: 100%;
+    }
+    
+    .sample .product-box{
+        margin-bottom: 50px;
+    }
+}
+/*===============TEXT ELEMENTS============*/
+.text_elements .box1,
+.text_elements .box2 {
+    border: none;
+    flex: 1 1 40%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.sample-heading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.sample-heading h1,
+.sample-heading h2,
+.sample-heading h3,
+.sample-heading h4 {
+    padding: 0 20px 20px 0;
+    text-align: left;
+    margin: 0;
+
+}
+
+/*======================Cart===========*/
+.cart {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.cart-box {
+    display: flex;
+    border-bottom: 2px solid black;
+}

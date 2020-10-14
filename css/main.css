@@ -1,0 +1,334 @@
+p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+}
+
+html {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Archivo', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Assistant', sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+.section_title{
+    
+}
+
+
+.code-render-title{
+    margin-bottom: 10px;
+}
+
+
+
+
+/*=======INTERACTIVE ELEMENTS===========*/
+.interactive_elements {
+    padding-bottom: 50px;
+}
+
+.interactive_elements h2 {
+    margin-bottom: 30px;
+}
+
+.interactive_elements code {
+    width: 400px;
+    padding: 1px;
+    background-color: transparent;
+    color: black
+}
+
+.radio-button label {
+    font-size: 18px;
+    padding: 0px 31px 20px 4px;
+}
+
+
+/*================text elements==========*/
+
+.sample-paragraph {
+    width: 90%;
+}
+
+.text_elements li {
+    font-size: 20px;
+}
+
+.text_elements p {
+    font-size: 18px;
+}
+
+
+@media (max-width: 810px) {
+
+    .sample-heading h1,
+    .sample-heading h2,
+    .sample-heading h3,
+    .sample-heading h4 {
+        padding: 0 10px 10px 10px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+.listing {
+    padding-top: 0;
+}
+
+
+
+/*=======PRODUCTION LIST===========*/
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-box {
+    margin-right: 18px;
+    text-align: center;
+}
+
+.product-box h4 {
+    font-weight: 400;
+    margin-bottom: 0;
+    padding-top: 15px;
+    font-size: 17px;
+}
+
+.product-box p {
+    margin-top: 0;
+    padding-top: 15px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.product-box a {
+    padding-top: 0;
+}
+
+/*=======NAVIGATION===========*/
+.nav-img {
+    width: 600px;
+}
+
+.main-nav {
+    position: relative;
+    top: -265px;
+    background-color: #f7ebec;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+@media (max-width: 810px) {
+    .main-nav a {
+        font-size: 12px;
+    }
+
+    .main-nav {
+        top: -140px;
+        width: 300px;
+    }
+
+    .nav-img {
+        width: 300px;
+    }
+}
+
+/*=======FORM ELEMENTS===========*/
+.sample form {
+    display: flex;
+    border: 1px solid black;
+    padding: 39px;
+    padding-right: 0;
+    box-shadow: 3px 3px 3px;
+}
+
+.sample form img {
+    margin-right: 50px;
+    width: 250px;
+    height: 360px;
+    padding-top: 10px;
+}
+
+@media (max-width: 810px) {
+    .sample form img {
+        visibility: hidden;
+        position: absolute;
+    }
+
+
+    .sample .cart {
+        width: 90%;
+    }
+
+    .sample .cart-box {
+        flex: 1 1 80%;
+        width: 90%;
+    }
+
+    .sample .cart-box img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .sample .cart p {
+        font-size: 15px;
+        padding: 40px 10px;
+    }
+}
+
+
+
+
+/*======================Cart===========*/
+
+
+.cart img {
+    width: 150px;
+    height: 150px;
+}
+
+
+.cart-box p {
+    padding-left: 80px;
+}
+
+.cart h4 {
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 50px;
+    font-weight: 200;
+}
+
+
+
+/*====================others==================*/
+
+.basic-idea h3 {
+    padding-left: 60px;
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+
+.basic-idea p {
+    padding-left: 60px;
+    margin-top: 8px;
+    width: 80%;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+.font-sample h2 {
+    border: none;
+    text-align: left;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.font-sample h1 {
+    font-size: 45px;
+    margin-bottom: 0;
+    margin-top: 75px;
+}
+
+.font-sample p {
+    width: 500px;
+}
+
+
+.color-platte img {
+    width: 80%;
+    margin-left: 80px;
+    margin-top: 70px;
+
+}
+
+@media (max-width:810px) {
+    .font-sample h2 {
+        border: none;
+        text-align: left;
+        font-size: 27px;
+        margin: 0;
+        padding-top: 10px;
+    }
+
+    .font-sample h1 {
+        font-size: 32px;
+        margin-bottom: 0;
+        margin-top: 75px;
+    }
+
+    .font-sample p {
+        width: 90%;
+    }
+    
+    .color-platte img {
+    width: 100%;
+        margin-left: 30px;
+        margin-top: 30px;
+
+}
+    
+    .icon{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        
+    }
+    
+    .citation{
+        width: 90%;
+    }
+    
+    .citation li{
+        width: 90%;
+    }
+
+
+}
+
+/*=============ICON=============*/
+.icon {
+    justify-content: center;
+}
+
+.icon img {
+    width: 50px;
+    margin-right: 40px;
+}
+
+.icon h3 {
+    width: 100%;
+}

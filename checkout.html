@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P01 - Style Guide Template</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/interaction.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/responsive-nav.css" rel="stylesheet">
+    <link href="css/checkout.css" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Assistant:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav>
+
+        <!-- nav icon// -->
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger" />
+
+        <!-- nav menu// -->
+        <div class="nav-items">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="index.html" class="nav-link">About</a>
+            <a href="product_listing.html" class="nav-link">Shop</a>
+            <a href="index.html" class="nav-link">Contact</a>
+            <a href="checkout.html" class="nav-link"><img src="./img/cart.svg" alt=""></a>
+        </div>
+
+    </nav>
+
+
+    <section class="combined_elements pay container sample">
+
+        <!-- cart// -->
+        <h2>Check Out</h2>
+        <div class="cart">
+            <div class="cart-box">
+                <img src="./img/p6.jpg" alt="">
+                <p>WANDF Lipstick 01</p>
+                <p>$50.00</p>
+            </div>
+            <div class="cart-box">
+                <img src="./img/p8.jpg" alt="">
+                <p>WANDF Lipstick 03</p>
+                <p>$70.00</p>
+            </div>
+            <h4>Total: $120.00</h4>
+        </div>
+        <!-- form// -->
+        <div class="box">
+            <form>
+                <img src="./img/p2.jpg" alt="">
+                <div class="payment">
+                    <div class="text-input">
+
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Name</label><br>
+
+                        <input type="text" id="address" name="adress" required>
+                        <label for="address">Address</label><br>
+
+                        <input type="text" id="phone-num" name="phone-num" required>
+                        <label for="phone-num">Phone</label><br>
+
+                        <input type="text" id="card-num" name="card-num" required>
+                        <label for="card-num">Card</label><br>
+
+                        <input type="text" id="cvv" name="cvv" required>
+                        <label for="cvv">CVV</label><br>
+
+                    </div>
+                    <input type="submit" value="Submit" class="submit-reset">
+
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+
+</body></html>
